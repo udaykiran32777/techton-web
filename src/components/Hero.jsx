@@ -48,13 +48,13 @@ const Hero = () => {
                     </div>
 
                     <h1 className="hero-title">
-                        Building Strong<br />
-                        <span className="gradient-text">Digital Foundations</span>
+                        Cutting-Edge Technology !<br />
+                        <span className="gradient-text">Effortless Experience !</span>
                     </h1>
 
                     <p className="hero-subtitle">
-                        Web & mobile solutions for schools, studios, real estate,<br />
-                        and growing businesses. Technology built with strength, clarity, and precision.
+                        Simple, powerful digital solutions crafted to streamline your business.
+
                     </p>
 
                     <div className="hero-buttons">

@@ -3,6 +3,7 @@ import './Navbar.css'
 
 const Navbar = ({ scrollY }) => {
     const [activeSection, setActiveSection] = useState('home')
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
     const navLinks = [
         { id: 'home', label: 'Home' },
@@ -52,7 +53,9 @@ const Navbar = ({ scrollY }) => {
                     <div className="logo-glow"></div>
                     <span className="logo-text">TECHTON</span>
                 </div>
-                <ul className="nav-links">
+
+                {/* Desktop Navigation */}
+                <ul className="nav-links desktop-nav">
                     {navLinks.map(link => (
                         <li key={link.id}>
                             <button
@@ -64,6 +67,36 @@ const Navbar = ({ scrollY }) => {
                         </li>
                     ))}
                 </ul>
+
+                {/* Mobile Menu Toggle */}
+                <button
+                    className={`mobile-toggle ${isMobileMenuOpen ? 'open' : ''}`}
+                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                    aria-label="Toggle navigation"
+                >
+                    <span className="hamburger-line"></span>
+                    <span className="hamburger-line"></span>
+                    <span className="hamburger-line"></span>
+                </button>
+
+                {/* Mobile Navigation Overlay */}
+                <div className={`mobile-nav ${isMobileMenuOpen ? 'open' : ''}`}>
+                    <ul className="mobile-nav-links">
+                        {navLinks.map(link => (
+                            <li key={link.id}>
+                                <button
+                                    onClick={() => {
+                                        scrollToSection(link.id)
+                                        setIsMobileMenuOpen(false)
+                                    }}
+                                    className={`mobile-nav-link ${activeSection === link.id ? 'active' : ''}`}
+                                >
+                                    {link.label}
+                                </button>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
             </div>
         </nav>
     )
