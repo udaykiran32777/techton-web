@@ -26,28 +26,10 @@ const Portfolio = () => {
 
     const projects = [
         {
-            title: 'Sun Pro',
+            title: 'Mee Buddy',
             description: 'Enterprise resource planning solution for renewable energy management.',
             tags: ['Web App', 'Enterprise'],
             image: 'sunpro_project_1764064666554.png'
-        },
-        {
-            title: 'Kerosene Platform',
-            description: 'Supply chain management platform for fuel distribution networks.',
-            tags: ['Platform', 'Logistics'],
-            image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800'
-        },
-        {
-            title: 'Salient Camera App',
-            description: 'AI-powered camera application with advanced image processing.',
-            tags: ['Mobile', 'AI'],
-            image: 'salient_camera_1764065287927.png'
-        },
-        {
-            title: 'Google Calendar POC',
-            description: 'Proof of concept for advanced calendar integration and scheduling.',
-            tags: ['POC', 'Integration'],
-            image: 'calendar_poc_1764065300440.png'
         },
         {
             title: 'Village Community Apps',

@@ -26,25 +26,25 @@ const Solutions = () => {
 
     const solutions = [
         {
-            title: 'Techton SchoolDesk',
+            title: 'SunHapIT SchoolDesk',
             description: 'Comprehensive school information & notice board management system with real-time updates and parent-teacher connectivity.',
             features: ['Digital Notice Board', 'Parent Portal', 'Analytics'],
             gradient: 'gradient1'
         },
         {
-            title: 'Techton StudioAlbum',
+            title: 'SunHapIT StudioAlbum',
             description: 'Professional digital photo album system for studios with AI-powered organization and cloud delivery.',
             features: ['Cloud Storage', 'AI Organization', 'Client Portal'],
             gradient: 'gradient2'
         },
         {
-            title: 'Techton EstatePro',
+            title: 'SunHapIT EstatePro',
             description: 'Complete real estate management platform with property listings, CRM, and virtual tours.',
             features: ['Property Management', 'CRM', 'Virtual Tours'],
             gradient: 'gradient3'
         },
         {
-            title: 'Techton InventoryLite',
+            title: 'SunHapIT InventoryLite',
             description: 'Streamlined stock and warehouse management with real-time tracking and automated alerts.',
             features: ['Stock Tracking', 'Alerts', 'Reports'],
             gradient: 'gradient4'

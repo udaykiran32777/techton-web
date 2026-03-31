@@ -45,7 +45,7 @@
 
 .logo-text {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.5px;
   background: linear-gradient(135deg, #ffffff, #22D3EE);
@@ -68,7 +68,7 @@
   padding: 0.5rem 1rem;
   color: rgba(255, 255, 255, 0.7);
   font-family: 'Inter', sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
   background: none;
   border: none;
@@ -109,10 +109,13 @@
 }
 
 @keyframes pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
     transform: scale(1);
   }
+
   50% {
     opacity: 0.7;
     transform: scale(1.2);
@@ -211,16 +214,16 @@
     width: auto;
     transform: none;
   }
-  
+
   .nav-content {
     justify-content: space-between;
     padding: 0.75rem 1.5rem;
   }
-  
+
   .desktop-nav {
     display: none;
   }
-  
+
   .mobile-toggle {
     display: flex;
   }

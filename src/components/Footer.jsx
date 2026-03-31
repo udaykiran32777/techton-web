@@ -8,9 +8,9 @@ const Footer = () => {
                     <div className="footer-brand">
                         <div className="footer-logo">
                             <div className="logo-glow-footer"></div>
-                            <span className="logo-text">TECHTON</span>
+                            <span className="logo-text">SunHapIT</span>
                         </div>
-                        <p className="footer-tagline">Building Strong Digital Foundations</p>
+                        <p className="footer-tagline">Make your life easy with Technology</p>
                     </div>
 
                     <div className="footer-links">
@@ -49,7 +49,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; 2024 TECHTON. All rights reserved.</p>
+                    <p>&copy; 2026 SunHapIT. All rights reserved.</p>
                     <div className="footer-legal">
                         <a href="#">Privacy Policy</a>
                         <span className="separator">•</span>

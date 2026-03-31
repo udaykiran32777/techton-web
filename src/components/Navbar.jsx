@@ -51,7 +51,7 @@ const Navbar = ({ scrollY }) => {
             <div className="nav-content">
                 <div className="nav-logo">
                     <div className="logo-glow"></div>
-                    <span className="logo-text">TECHTON</span>
+                    <span className="logo-text">SunHapIT</span>
                 </div>
 
                 {/* Desktop Navigation */}

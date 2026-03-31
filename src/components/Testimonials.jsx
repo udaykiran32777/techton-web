@@ -6,7 +6,7 @@ const Testimonials = () => {
 
     const testimonials = [
         {
-            text: "TECHTON transformed our school management system completely. The SchoolDesk platform is intuitive, powerful, and has improved our parent-teacher communication tremendously.",
+            text: "SunHapIT transformed our school management system completely. The SchoolDesk platform is intuitive, powerful, and has improved our parent-teacher communication tremendously.",
             author: "Sarah Johnson",
             title: "Principal, Greenwood Academy",
             avatar: "avatar_woman_1764065466386.png"

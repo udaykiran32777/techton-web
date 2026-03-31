@@ -12,7 +12,7 @@ const About = () => {
                         </div>
                         <h2 className="section-title">Building Tomorrow's<br />Technology Today</h2>
                         <p className="about-text">
-                            Founded with a vision to empower businesses through technology, TECHTON has grown into a trusted partner for organizations seeking digital transformation.
+                            Founded with a vision to empower businesses through technology, SunHapIT has grown into a trusted partner for organizations seeking digital transformation.
                         </p>
                         <p className="about-text">
                             We believe in creating strong digital foundations that stand the test of time. Every line of code, every design decision, and every feature is built with precision, clarity, and purpose.
