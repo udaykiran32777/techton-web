@@ -10,7 +10,7 @@ const Footer = () => {
                             <div className="logo-glow-footer"></div>
                             <span className="logo-text">SunHapIT</span>
                         </div>
-                        <p className="footer-tagline">Make your life easy with Technology</p>
+                        <p className="footer-tagline">We Simplify Your Business with Technology</p>
                     </div>
 
                     <div className="footer-links">
