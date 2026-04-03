@@ -26,25 +26,25 @@ const Solutions = () => {
 
     const solutions = [
         {
-            title: 'SunHapIT SchoolDesk',
+            title: 'Sunhap SchoolDesk',
             description: 'Comprehensive school information & notice board management system with real-time updates and parent-teacher connectivity.',
             features: ['Digital Notice Board', 'Parent Portal', 'Analytics'],
             gradient: 'gradient1'
         },
         {
-            title: 'SunHapIT StudioAlbum',
+            title: 'Sunhap StudioAlbum',
             description: 'Professional digital photo album system for studios with AI-powered organization and cloud delivery.',
             features: ['Cloud Storage', 'AI Organization', 'Client Portal'],
             gradient: 'gradient2'
         },
         {
-            title: 'SunHapIT EstatePro',
+            title: 'Sunhap EstatePro',
             description: 'Complete real estate management platform with property listings, CRM, and virtual tours.',
             features: ['Property Management', 'CRM', 'Virtual Tours'],
             gradient: 'gradient3'
         },
         {
-            title: 'SunHapIT InventoryLite',
+            title: 'Sunhap InventoryLite',
             description: 'Streamlined stock and warehouse management with real-time tracking and automated alerts.',
             features: ['Stock Tracking', 'Alerts', 'Reports'],
             gradient: 'gradient4'

@@ -50,7 +50,7 @@ const Navbar = ({ scrollY }) => {
         <nav className={`glass-nav ${scrollY > 50 ? 'scrolled' : ''}`}>
             <div className="nav-content">
                 <div className="nav-logo">
-                    <span className="logo-text">SunHapIT</span>
+                    <span className="logo-text">Sunhap</span>
                 </div>
 
                 {/* Desktop Navigation */}

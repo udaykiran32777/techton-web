@@ -8,7 +8,7 @@ const Footer = () => {
                     <div className="footer-brand">
                         <div className="footer-logo">
                             <div className="logo-glow-footer"></div>
-                            <span className="logo-text">SunHapIT</span>
+                            <span className="logo-text">Sunhap</span>
                         </div>
                         <p className="footer-tagline">We Simplify Your Business with Technology</p>
                     </div>
@@ -49,7 +49,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; 2026 SunHapIT. All rights reserved.</p>
+                    <p>&copy; 2026 Sunhap. All rights reserved.</p>
                     <div className="footer-legal">
                         <a href="#">Privacy Policy</a>
                         <span className="separator">•</span>

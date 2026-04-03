@@ -6,7 +6,7 @@ const Testimonials = () => {
 
     const testimonials = [
         {
-            text: "SunHapIT transformed our school management system completely. The SchoolDesk platform is intuitive, powerful, and has improved our parent-teacher communication tremendously.",
+            text: "Sunhap transformed our school management system completely. The SchoolDesk platform is intuitive, powerful, and has improved our parent-teacher communication tremendously.",
             author: "Sarah Johnson",
             title: "Principal, Greenwood Academy",
             avatar: "avatar_woman_1764065466386.png"
@@ -18,10 +18,10 @@ const Testimonials = () => {
             avatar: "avatar_man_1764065482530.png"
         },
         {
-            text: "Outstanding work on our real estate platform. The attention to detail and user experience is exceptional. Our listings have never looked better.",
-            author: "Emily Rodriguez",
-            title: "CEO, Metro Properties",
-            avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200"
+            text: "Outstanding work on our news application. The attention to detail and user experience is exceptional. Our listings have never looked better.",
+            author: "Beestti Srinu",
+            title: "Chairman, AP Dandora News",
+            avatar: ""
         }
     ]
 

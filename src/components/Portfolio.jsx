@@ -29,15 +29,30 @@ const Portfolio = () => {
             title: 'Mee Buddy',
             description: 'Enterprise resource planning solution for renewable energy management.',
             tags: ['Web App', 'Enterprise'],
-            image: 'sunpro_project_1764064666554.png'
+            image: 'sunpro_project_1764064666554.png',
+            link: 'https://meebuddy.com/'
         },
         {
             title: 'Village Community Apps',
             description: 'Digital platforms connecting rural communities with essential services.',
             tags: ['Social', 'Community'],
-            image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800'
+            image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800',
+            link: '#'
+        },
+        {
+            title: 'AP Dandora News',
+            description: 'News portal for Andhra Pradesh community.',
+            tags: ['Social', 'Community'],
+            image: 'ap_dandora_news_project_1764064744180.png',
+            link: 'https://apdandoranews.com'
         }
     ]
+
+    const handleViewProject = (link) => {
+        if (link && link !== '#') {
+            window.open(link, '_blank', 'noopener,noreferrer')
+        }
+    }
 
     return (
         <section id="portfolio" className="portfolio-section section-padding">
@@ -63,7 +78,12 @@ const Portfolio = () => {
                                     }}
                                 />
                                 <div className="portfolio-overlay">
-                                    <button className="view-project-btn">View Project</button>
+                                    <button
+                                        className="view-project-btn"
+                                        onClick={() => handleViewProject(project.link)}
+                                    >
+                                        View Project
+                                    </button>
                                 </div>
                             </div>
                             <div className="portfolio-info">

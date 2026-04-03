@@ -36,9 +36,9 @@ const Services = () => {
             description: 'Native and cross-platform mobile apps that deliver exceptional user experiences.'
         },
         {
-            icon: '☁️',
-            title: 'SaaS Platform Development',
-            description: 'Scalable cloud-based platforms designed for growth and reliability.'
+            icon: '🚀',
+            title: 'Digital Marketing',
+            description: 'Strategic online presence and growth marketing to help your brand reach the right audience.'
         },
         {
             icon: '🎨',
@@ -54,7 +54,13 @@ const Services = () => {
             icon: '🔧',
             title: 'Custom Solutions',
             description: 'Tailored technology solutions designed specifically for your unique business needs.'
-        }
+        },
+        {
+            icon: '☁️',
+            title: 'SaaS Platform Development',
+            description: 'Scalable cloud-based platforms designed for growth and reliability.'
+        },
+
     ]
 
     return (

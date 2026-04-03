@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section id="about" className="about-section section-padding">
             <div className="container">
-                <div className="about-grid">
+                <div >
                     <div className="about-content">
                         <div className="section-badge">
                             <span className="badge-dot"></span>
@@ -12,7 +12,7 @@ const About = () => {
                         </div>
                         <h2 className="section-title">Building Tomorrow's<br />Technology Today</h2>
                         <p className="about-text">
-                            Founded with a vision to empower businesses through technology, SunHapIT has grown into a trusted partner for organizations seeking digital transformation.
+                            Founded with a vision to empower businesses through technology, Sunhap has grown into a trusted partner for organizations seeking digital transformation.
                         </p>
                         <p className="about-text">
                             We believe in creating strong digital foundations that stand the test of time. Every line of code, every design decision, and every feature is built with precision, clarity, and purpose.
@@ -43,7 +43,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="about-visual">
+                    {/* <div className="about-visual">
                         <div className="team-showcase">
                             <div className="team-member">
                                 <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300" alt="Founder" />
@@ -67,8 +67,8 @@ const About = () => {
                                     <span className="stat-label">Projects</span>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </div> 
+                    </div> */}
                 </div>
             </div>
         </section>
